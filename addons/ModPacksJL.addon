@@ -3,12 +3,12 @@ a_name ModPacks By JustinBV_LunaVG
 a_version 1.1
 a_author JustinBV_LunaVG
 a_add_type c_for
-a_add_version c_for 1.18.2 https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.2.17/forge-1.18.2-40.2.17-installer.jar 17
+a_add_version c_for 1.18.2 https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.2.9/forge-1.18.2-40.2.9-installer.jar 17
 a_add_version c_for 47.2.30 https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.2.30/forge-1.20.1-47.2.30-installer.jar 17
 a_add_version c_for 47.2.6 https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.2.6/forge-1.20.1-47.2.6-installer.jar 17
 
 :button instalar_DawnCraft
-text Instalar DawnCraft (1.18.2 / Forge)
+text Instalar vaults (1.18.2 / Forge)
 remove_server
 download_version y c_for 1.18.2
 exec java -jar 1.18.2.jar --installServer
@@ -17,9 +17,9 @@ config server_version 1.18.2
 config_save
 say Descargando DawnCraft...
 say Instalando DawnCraft...
-download_file https://mediafilez.forgecdn.net/files/5399/272/DawnCraft%202.0.9_f3%20Serverpack.zip DawnCraft.rar
+download_file https://mediafilez.forgecdn.net/files/5413/471/Vault-Hunters-3rd-Edition-3.14.3-server-files.zip DawnCraft.rar
 unzip DawnCraft.rar
-say DawnCraft instalado!
+say vault instalado!
 exec echo "eula=true" >> eula.txt
 exec rm server-icon.png
 download_file https://www.dropbox.com/scl/fi/rwcaasa0y17m17vbkpeh9/icon.png?rlkey=znaxxw3w9r9ucrxbarxis4sd3&st=2uh1aug6&dl=1 server-icon.png
