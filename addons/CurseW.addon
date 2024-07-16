@@ -1,20 +1,20 @@
 :main
-a_name Cursed Walking By JustinBV_LunaVG
+a_name Horror By JustinBV_LunaVG
 a_version 1
 a_author JustinBV_LunaVG
 
 :button instalar_CurseW
-text Instalar Cursed Walking (1.20.1 / Forge)
+text Instalar Horror (1.20.1 / Forge)
 remove_server
 download_version n forge 1.20.1
 config server_type forge
 config server_version 1.20.1
 config_save
-say Descargando Cursed Walking
-download_file https://mediafilez.forgecdn.net/files/5473/718/Cursed%20Walking%201.20.1%20Version%202.0.1%20Server%20Files.zip CurWl.zip
-unzip CurWl.zip
-say Cursed Walking Instalado
+say Descargando Horror
+download_file https://mediafilez.forgecdn.net/files/5454/300/Cave%20Horror-v1.4.5-Server_Pack.zip Chorror.zip
+unzip Chorror.zip
+say Horror Instalado
 exec rm server-icon.png
-exec rm CurWl.zip
+exec rm Chorror.zip
 download_file https://www.dropbox.com/scl/fi/rwcaasa0y17m17vbkpeh9/icon.png?rlkey=znaxxw3w9r9ucrxbarxis4sd3&st=2uh1aug6&dl=1 server-icon.png
 sleep 3
